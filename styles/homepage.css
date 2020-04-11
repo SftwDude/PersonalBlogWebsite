@@ -44,10 +44,8 @@
 }
 
 .blogpost-date {
-    display: block;
     color: rgba(0,0,0, .5);
     font-size: 1.6rem;
-    /*margin: .5rem 0;*/
 }
 
 .blogpost-title {
@@ -102,7 +100,7 @@
         max-width: 15vw;
         height: 15vw;
     } 
-      
+
     .figure-text {
         font-size: 0.0rem;
         font-style: italic;
