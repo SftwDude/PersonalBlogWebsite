@@ -1,6 +1,6 @@
 .container {
     display:grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: auto;
     grid-template-rows: 100px 100px;
     grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
@@ -22,5 +22,18 @@
 }
 
 .footer-box {
+    display: flex;
     grid-area: ft;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.follow-links {
+    margin-left: auto;
+}
+
+.follow-img {
+    min-width: 20px;
+    max-width: 20px;
+    height: 20px;
 }
