@@ -1,0 +1,26 @@
+.container {
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "feat feat feat feat feat feat feat feat"
+      "main main main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+}
+
+.header-box {
+    grid-area: hd;
+}
+
+.feature-box {
+    grid-area: feat;
+}
+
+.content-box {
+    grid-area: main;
+}
+
+.footer-box {
+    grid-area: ft;
+}
