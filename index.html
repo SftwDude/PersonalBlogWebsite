@@ -4,10 +4,8 @@
 <head>
     <title>Personal Blog</title>
     <meta charset="utf-8">
-    <meta 
-        name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    >
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="styles/app.css" rel="stylesheet">
 </head>
 
@@ -24,37 +22,52 @@
                 </ul>
             </nav>
         </header>
-        <article class="blogpost">
-            <figure class=figure-text>
-                <img class="blogpost-img" src="images/shrimpinlobstersauce.jpg" alt="">
-                <figcaption>Shrimp in lobster sauce</figcaption>
-            </figure>
-            <section class="blogpost-info">
-                <span class="blogpost-date">April 6, 2020</span>
-                <h2 class="blogpost-title">Shrimp With Lobser Sauce</h2>
-                <p class="blogpost-content"> Shrimp with lobster sauce is a Chinese dish that doesn't contain lobster.
-                </p>
-                <a class="blogpost-morebtn" href="blogpost.html?Post=Shrimp in lobster sauce">Read more</a>
-            </section>
-        </article>
-        <article class="blogpost">
-            <figure class=figure-text>
-                <img class="blogpost-img" src="images/orangechicken.jpg" alt="">
-                <figcaption>Orange Chicken</figcaption>
-            </figure>
-            <section class="blogpost-info">
-                <span class="blogpost-date">April 6, 2020</span>
-                <h2 class="blogpost-title">Orange Chicken</h2>
-                <p class="blogpost-content"> The concoction, crispy fried chicken tossed with a sweet and sour sauce, is
-                    an Americanized version of dishes found in China.</p>
-                <a class="blogpost-morebtn" href="blogpost.html?Post=Orange Chicken">Read more</a>
-            </section>
-        </article>
+        <aside class="sidebar">
+            <ul class="month-post">
+                <li><a href="">March 2020 Posts</a></li>
+                <li>
+                    <a href="">April 2020 Posts</a>
+                    <ol class="month-post-items">
+                        <li>Shrimp With Lobster Sauce</li>
+                        <li>Orange Chicken</li>
+                    </ol>
+                </li>
+            </ul>
+        </aside>
+        <div class="articles">
+            <article class="blogpost">
+                <figure class=figure-text>
+                    <img class="blogpost-img" src="images/shrimpinlobstersauce.jpg" alt="Shrimp in Lobster Sauce">
+                    <figcaption>Shrimp in lobster sauce</figcaption>
+                </figure>
+                <section class="blogpost-info">
+                    <span class="blogpost-date">April 6, 2020</span>
+                    <h2 class="blogpost-title">Shrimp With Lobser Sauce</h2>
+                    <p class="blogpost-content"> Shrimp with lobster sauce is a Chinese dish that doesn't contain
+                        lobster.
+                    </p>
+                    <a class="blogpost-morebtn" href="blogpost.html?Post=Shrimp in lobster sauce">Read more</a>
+                </section>
+            </article>
+            <article class="blogpost">
+                <figure class=figure-text>
+                    <img class="blogpost-img" src="images/orangechicken.jpg" alt="Orange Chicken">
+                    <figcaption>Orange Chicken</figcaption>
+                </figure>
+                <section class="blogpost-info">
+                    <span class="blogpost-date">April 13, 2020</span>
+                    <h2 class="blogpost-title">Orange Chicken</h2>
+                    <p class="blogpost-content"> The concoction, crispy fried chicken tossed with a sweet and sour
+                        sauce, is
+                        an Americanized version of dishes found in China.</p>
+                    <a class="blogpost-morebtn" href="blogpost.html?Post=Orange Chicken">Read more</a>
+                </section>
+            </article>
+        </div>
         <br>
         <footer class="footer-main">My Blog Post footer.
         </footer>
     </div>
-
 </body>
 
 </html>
